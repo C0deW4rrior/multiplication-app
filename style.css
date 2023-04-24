@@ -1,0 +1,60 @@
+body {
+    background: url(https://images.unsplash.com/photo-1632207190829-a97e41017175?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.7em;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px chocolate;
+    color: chocolate;
+    outline: none;
+}
+
+.input::placeholder {
+    color: lightgray;
+    font-family: cursive;
+}
+
+.btn {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
+.score {
+    color: chocolate;
+    text-align: right;
+}
